@@ -1,0 +1,123 @@
+.cart-section-wrapper {
+  padding: 1.5rem;
+}
+
+.cart-section-header {
+  margin-bottom: 1rem;
+}
+
+.cart-products {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cart-product {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buy-button {
+  color: #fff;
+  background-color: black;
+  border-radius: 0.75rem;
+  padding: 0.25rem 1rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.left-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.name-price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.right-info input {
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.right-info button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.right-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.manage-product-quantity {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.total-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-wrapper > .total {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.total-wrapper > button {
+  flex: 1;
+  max-width: 300px;
+}
+
+.cart-empty-component {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.cart-empty-message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cart-empty-message > p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cart-empty-message > span {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.link-styles {
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+}

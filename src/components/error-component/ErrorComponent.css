@@ -1,0 +1,17 @@
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  gap: 0.75rem;
+}
+
+.not-found-heading {
+  font-size: 5rem;
+}
+
+.not-found-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
